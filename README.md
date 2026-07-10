@@ -23,10 +23,10 @@ ii. **uvicorn main:app --reload** - This command is basically used to reload any
 To install, we need to execute the following command in the terminal
 **pip install sqlalchemy psycopg2**
 
-**pip list** - displays all the packages installed in the machine
-
 6. To deactivate the virtual environment, 
 **deactivate** - This will deactivate the virtual environment
 
-7. Loading the FastAPI in the browser
+7. **pip list** - displays all the packages installed in the machine
+
+8. Loading the FastAPI in the browser
 **http://localhost:8000/docs#/**
