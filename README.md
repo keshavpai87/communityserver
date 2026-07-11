@@ -17,7 +17,7 @@ Here in our case, (myenv) must be displayed
 
 4. To run uvicorn,
 i. **uvicorn main:app --host 0.0.0.0 --port 8000** - This opens the TCP 8000 port to access from outside.
-ii. **uvicorn main:app --reload** - This command is basically used to reload any changes done in the code. Better to use this during development of backend API's
+ii. **uvicorn main:app --reload** - This command is basically used to reload any changes done in the code. Better to use this during the development of backend API's
 
 5. SQLAlchemy
 To install, we need to execute the following command in the terminal
