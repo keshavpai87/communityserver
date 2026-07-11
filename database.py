@@ -9,7 +9,7 @@ postgres_url = URL.create(
     username="postgres",
     password="Keshav@123",
     host="localhost",
-    database="telusko"
+    database="gsbcommunity"
 )
 
 # MySql DB
@@ -25,6 +25,6 @@ mysql_url = URL.create(
 # db_url = "dbtype://username:password@localhost:portnumber/dbname"
 password = "my@password"
 encoded_password = quote_plus(password)
-# db_url = "postgresql+psycopg2://postgres:{encoded_password}@localhost/telusko"
+# db_url = "postgresql+psycopg2://postgres:{encoded_password}@localhost/gsbcommunity"
 engine = create_engine(postgres_url)
 session = sessionmaker(autoflush = False, bind = engine, autocommit = False)
